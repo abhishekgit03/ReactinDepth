@@ -28,11 +28,14 @@ function App() {
   passwordRef.current?.select()
   window.navigator.clipboard.writeText(password)
  }, [password])
+
  useEffect( ()=>
  {
   passwordGenerator()
  }
 , [length,numberAllowed,charAllowed, passwordGenerator])
+
+
   return (
     <div className="w-full h-screen py-5" 
       style={{backgroundColor: "black"}}>
