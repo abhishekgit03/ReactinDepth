@@ -31,7 +31,6 @@ function App() {
         style={{
             backgroundImage: `url('https://www.hdwallpapers.in/download/lots_of_currency_with_lines_hd_money-HD.jpg')`,
         }}
-        
     >
         <div className="w-full">
             <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
